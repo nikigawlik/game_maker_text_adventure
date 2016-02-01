@@ -51,7 +51,7 @@ image_speed = 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if mouse_check_button_pressed(mb_left) &amp;&amp; instance_position(mouse_x, mouse_y, object_index) == id
+            <string>if mouse_check_button_pressed(mb_left) &amp;&amp; instance_position(mouse_x, mouse_y, object_index) == id &amp;&amp; visible
 {
     pressed = true
     image_index = 1
